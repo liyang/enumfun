@@ -1,9 +1,10 @@
 name:           enumfun
-version:        0.5.1.0
-synopsis:       Finitely represented /total/ EnumMaps
+version:        0.5.1.1
+synopsis:       Finitely represented total EnumMaps
 description:
     Finitely represented /total/ EnumMaps. Comprises a partial EnumMap and
     a default value. Has Applicative and Monad instances, unlike EnumMap.
+    Now with extra lensy goodness.
     .
     Inspired by Conal's Data.TotalMap:
     <http://hackage.haskell.org/package/total-map>
@@ -33,7 +34,8 @@ library
         Data.EnumFun.Strict.Base
     build-depends:
         base >= 4.6 && < 5,
-        enummapset-th >= 0.5.1.0 && < 0.6
+        enummapset-th >= 0.5.1.0 && < 0.6,
+        lens >= 3
     include-dirs: include
     ghc-options: -Wall
 

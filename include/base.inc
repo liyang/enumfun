@@ -4,6 +4,7 @@
 {-# LANGUAGE DeriveTraversable #-}
 {-# OPTIONS_HADDOCK not-home #-}
 
+-- | 'EnumFun' internals.
 module Data.EnumFun.LAZY.Base
     ( EnumFun (..)
     ) where
